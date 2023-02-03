@@ -1,0 +1,16 @@
+PODS:
+  - ReverseExtension (0.6.0)
+
+DEPENDENCIES:
+  - ReverseExtension
+
+SPEC REPOS:
+  trunk:
+    - ReverseExtension
+
+SPEC CHECKSUMS:
+  ReverseExtension: 5c7ca8c165f47e9bde8e26084d5e7bf21ad4f5a6
+
+PODFILE CHECKSUM: a1e19f70d4d492fa2f6af3683d826ea5e2720c54
+
+COCOAPODS: 1.11.2

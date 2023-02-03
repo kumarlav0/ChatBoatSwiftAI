@@ -1,0 +1,6 @@
+framework module Pods_ChatBoatSwiftAITests {
+  umbrella header "Pods-ChatBoatSwiftAITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

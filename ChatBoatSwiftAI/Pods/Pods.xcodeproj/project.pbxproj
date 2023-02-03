@@ -1,0 +1,978 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A208A68AD00A8FBEB560C9839E697D8 /* UITableViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA804B598E7E6D07E4E47372266B946 /* UITableViewDelegateProxy.swift */; };
+		289B16C46F12680BEB42D28AF270E51F /* Pods-ChatBoatSwiftAI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CB5D26AF188F3F617325BF19B00F6E /* Pods-ChatBoatSwiftAI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29459839491A9C722E367C840D31DEF8 /* DelegateProxyBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E5B0AFA71E8C2A739F5E7F2D701E03 /* DelegateProxyBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39418F2FEFCB1484784888247D00E301 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B35BE27D966446294528B69E00C1F8 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B3134994A2063F1F6AC793B09111E29 /* ReverseExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA13583AE8FB09A5772FB3FE67F7AD /* ReverseExtension-dummy.m */; };
+		4327723CE26673A6B6D12669E6D27D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		619F6E53030E4E93AA1B4D4763572A8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9C30C55DF2B856FEA2D3499F44FDA9EB /* Pods-ChatBoatSwiftAITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6349E888300E3E85E13B7A208656AE9 /* Pods-ChatBoatSwiftAITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFCCA1998DBB5FD9531FF910EEE7DE2F /* ReverseExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9C46EBFF3F1EA53EE261452C496F03D /* ReverseExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C182C2DE539DAF764116EC5D43D2E3F1 /* DelegateProxyBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CED7522C3E691B132D468D5D71E8B67 /* DelegateProxyBase.m */; };
+		CEACA794C0F33D24E93B00F42AFCB1A6 /* Pods-ChatBoatSwiftAI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5957E8DE4518D5F61FBE631DC90242F8 /* Pods-ChatBoatSwiftAI-dummy.m */; };
+		D89C518DD8554DED81914683ED098D91 /* ReverseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D904C5C5CB7CEF1DD280DF9CBC4AE7 /* ReverseExtension.swift */; };
+		E50C1244E84FDF1ECC7857D3B4788C43 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEBE2AA043C7E3C63D1697993B77E01 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-dummy.m */; };
+		E6C5570C0DA4BC9FEFC1BE426D94F303 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EB59AE9B8D4DE2898B9EC2F5F3B898CE /* Pods-ChatBoatSwiftAITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBEDEA9C5308EF6E61AA817B4252B91 /* Pods-ChatBoatSwiftAITests-dummy.m */; };
+		F6574061C60F331E35ADB53F24484B7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09C39C9659105A3D66E7C7AC517525B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D9DC60324F952EF1F7019E52E8F7F14;
+			remoteInfo = ReverseExtension;
+		};
+		476567476D5F24A21ABB04DEE6EABAEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D9DC60324F952EF1F7019E52E8F7F14;
+			remoteInfo = ReverseExtension;
+		};
+		B73A371A17860EE395969696B4E89138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14C6DCBEBEB24DF7FC2725B66DAFEA57;
+			remoteInfo = "Pods-ChatBoatSwiftAI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002E530F5DBD0AAB98994B16E7477F76 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.modulemap"; sourceTree = "<group>"; };
+		0054F551895B186B71BFEF2F1CBDCB5B /* Pods-ChatBoatSwiftAI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatBoatSwiftAI-Info.plist"; sourceTree = "<group>"; };
+		16F16191607B17065A92C5E779178929 /* Pods-ChatBoatSwiftAI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatBoatSwiftAI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FA804B598E7E6D07E4E47372266B946 /* UITableViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewDelegateProxy.swift; path = ReverseExtension/UITableViewDelegateProxy.swift; sourceTree = "<group>"; };
+		21CB5D26AF188F3F617325BF19B00F6E /* Pods-ChatBoatSwiftAI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatBoatSwiftAI-umbrella.h"; sourceTree = "<group>"; };
+		2724F89B0578EDF23E636F71F3A60321 /* Pods-ChatBoatSwiftAITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatBoatSwiftAITests-Info.plist"; sourceTree = "<group>"; };
+		2A485AAEED8A4510E28138E2EDEB496B /* Pods-ChatBoatSwiftAITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatBoatSwiftAITests.release.xcconfig"; sourceTree = "<group>"; };
+		32B35BE27D966446294528B69E00C1F8 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-umbrella.h"; sourceTree = "<group>"; };
+		34AC2A2B42271317251E48D8686E3356 /* Pods-ChatBoatSwiftAITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatBoatSwiftAITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39C953EA556E5C7D33B011C465EE02D5 /* Pods-ChatBoatSwiftAI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ChatBoatSwiftAI"; path = Pods_ChatBoatSwiftAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FAA13583AE8FB09A5772FB3FE67F7AD /* ReverseExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReverseExtension-dummy.m"; sourceTree = "<group>"; };
+		4CED7522C3E691B132D468D5D71E8B67 /* DelegateProxyBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DelegateProxyBase.m; path = ReverseExtension/DelegateProxyBase.m; sourceTree = "<group>"; };
+		53E5B0AFA71E8C2A739F5E7F2D701E03 /* DelegateProxyBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DelegateProxyBase.h; path = ReverseExtension/DelegateProxyBase.h; sourceTree = "<group>"; };
+		5957E8DE4518D5F61FBE631DC90242F8 /* Pods-ChatBoatSwiftAI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatBoatSwiftAI-dummy.m"; sourceTree = "<group>"; };
+		5A9554A028FDE2399B7CAD009D8D7701 /* Pods-ChatBoatSwiftAI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatBoatSwiftAI-acknowledgements.plist"; sourceTree = "<group>"; };
+		614593D404FEDC43CAF2402998DB958B /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		65701223E47D1106EED1E4517578C59D /* ReverseExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReverseExtension; path = ReverseExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D904C5C5CB7CEF1DD280DF9CBC4AE7 /* ReverseExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReverseExtension.swift; path = ReverseExtension/ReverseExtension.swift; sourceTree = "<group>"; };
+		6831BEB4A69D14247C8239EFDA5206E0 /* Pods-ChatBoatSwiftAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatBoatSwiftAI.debug.xcconfig"; sourceTree = "<group>"; };
+		69F5EE00A2B412ABD701D6EB39B8AC44 /* Pods-ChatBoatSwiftAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatBoatSwiftAI.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F2E5BDAD75533C42AC31B6D955407C7 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests"; path = Pods_ChatBoatSwiftAI_ChatBoatSwiftAIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		824634B7C419E90DDB157E9371CCA904 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86E94F7766338FCB712E3E4E8D9E8F2F /* Pods-ChatBoatSwiftAITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatBoatSwiftAITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8DB696A30A2D6845389D6D3E688F9DA5 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		97FF11AF97C09FA792A4741ACEF32F0C /* Pods-ChatBoatSwiftAI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatBoatSwiftAI.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D95CA3AB98D00143DC9C4F805B23D1C /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A53FF3508EFD5911DD6983E172CC50D9 /* ReverseExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReverseExtension.debug.xcconfig; sourceTree = "<group>"; };
+		ADEBE2AA043C7E3C63D1697993B77E01 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-dummy.m"; sourceTree = "<group>"; };
+		BF7FAD18828CA4862D0ADB10B136942E /* ReverseExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReverseExtension-prefix.pch"; sourceTree = "<group>"; };
+		C1509A5CA399C597FAF8B621CD9F3BC7 /* Pods-ChatBoatSwiftAITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ChatBoatSwiftAITests"; path = Pods_ChatBoatSwiftAITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6125F3C8321239BB281B1A3CA0B5710 /* Pods-ChatBoatSwiftAITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatBoatSwiftAITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6349E888300E3E85E13B7A208656AE9 /* Pods-ChatBoatSwiftAITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatBoatSwiftAITests-umbrella.h"; sourceTree = "<group>"; };
+		C69C211E2F7F5BD741AFC421EA459276 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-Info.plist"; sourceTree = "<group>"; };
+		C9540A81C5F203454C81F75BF4E728DB /* ReverseExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReverseExtension-Info.plist"; sourceTree = "<group>"; };
+		C9C46EBFF3F1EA53EE261452C496F03D /* ReverseExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReverseExtension-umbrella.h"; sourceTree = "<group>"; };
+		CFE9999F8759BDFEFADDF9A1940174A1 /* Pods-ChatBoatSwiftAI-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatBoatSwiftAI-frameworks.sh"; sourceTree = "<group>"; };
+		D331803BFCA0814051509637C69F9365 /* ReverseExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReverseExtension.modulemap; sourceTree = "<group>"; };
+		E089219EAE17E9F50728FD20D91AE862 /* Pods-ChatBoatSwiftAITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatBoatSwiftAITests.modulemap"; sourceTree = "<group>"; };
+		E77A6283C4FD53A0481619FF7CCB0D89 /* ReverseExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReverseExtension.release.xcconfig; sourceTree = "<group>"; };
+		F1FFA37276CE3A411CA1C1F706F12A9E /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FFBEDEA9C5308EF6E61AA817B4252B91 /* Pods-ChatBoatSwiftAITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatBoatSwiftAITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D2C3664588A8755A2C11CC519122CD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6574061C60F331E35ADB53F24484B7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D75C067D218F8FDCBEAFE66D516DDFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4327723CE26673A6B6D12669E6D27D60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B129D0717063FE28A91D3FD4DD16B0D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6C5570C0DA4BC9FEFC1BE426D94F303 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3EEAE649C24FE970258DAD7540EEB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619F6E53030E4E93AA1B4D4763572A8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31A3F559CDDD041C934525B016588C20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39C953EA556E5C7D33B011C465EE02D5 /* Pods-ChatBoatSwiftAI */,
+				7F2E5BDAD75533C42AC31B6D955407C7 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests */,
+				C1509A5CA399C597FAF8B621CD9F3BC7 /* Pods-ChatBoatSwiftAITests */,
+				65701223E47D1106EED1E4517578C59D /* ReverseExtension */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31F31F7078290637326B09AC8358FA99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A24FE5D48871454F82E2ACDBC4C0427D /* ReverseExtension */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3579743DB28FD9E0D03393EF41F14E7A /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				002E530F5DBD0AAB98994B16E7477F76 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.modulemap */,
+				824634B7C419E90DDB157E9371CCA904 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-acknowledgements.markdown */,
+				8DB696A30A2D6845389D6D3E688F9DA5 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-acknowledgements.plist */,
+				ADEBE2AA043C7E3C63D1697993B77E01 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-dummy.m */,
+				9D95CA3AB98D00143DC9C4F805B23D1C /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-frameworks.sh */,
+				C69C211E2F7F5BD741AFC421EA459276 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-Info.plist */,
+				32B35BE27D966446294528B69E00C1F8 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-umbrella.h */,
+				614593D404FEDC43CAF2402998DB958B /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.debug.xcconfig */,
+				F1FFA37276CE3A411CA1C1F706F12A9E /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.release.xcconfig */,
+			);
+			name = "Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests";
+			path = "Target Support Files/Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests";
+			sourceTree = "<group>";
+		};
+		4F47C98D32862AD10D2AD7C848444C65 /* Pods-ChatBoatSwiftAI */ = {
+			isa = PBXGroup;
+			children = (
+				97FF11AF97C09FA792A4741ACEF32F0C /* Pods-ChatBoatSwiftAI.modulemap */,
+				16F16191607B17065A92C5E779178929 /* Pods-ChatBoatSwiftAI-acknowledgements.markdown */,
+				5A9554A028FDE2399B7CAD009D8D7701 /* Pods-ChatBoatSwiftAI-acknowledgements.plist */,
+				5957E8DE4518D5F61FBE631DC90242F8 /* Pods-ChatBoatSwiftAI-dummy.m */,
+				CFE9999F8759BDFEFADDF9A1940174A1 /* Pods-ChatBoatSwiftAI-frameworks.sh */,
+				0054F551895B186B71BFEF2F1CBDCB5B /* Pods-ChatBoatSwiftAI-Info.plist */,
+				21CB5D26AF188F3F617325BF19B00F6E /* Pods-ChatBoatSwiftAI-umbrella.h */,
+				6831BEB4A69D14247C8239EFDA5206E0 /* Pods-ChatBoatSwiftAI.debug.xcconfig */,
+				69F5EE00A2B412ABD701D6EB39B8AC44 /* Pods-ChatBoatSwiftAI.release.xcconfig */,
+			);
+			name = "Pods-ChatBoatSwiftAI";
+			path = "Target Support Files/Pods-ChatBoatSwiftAI";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6B6A0612B449F6A77B6F318F89984732 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D331803BFCA0814051509637C69F9365 /* ReverseExtension.modulemap */,
+				3FAA13583AE8FB09A5772FB3FE67F7AD /* ReverseExtension-dummy.m */,
+				C9540A81C5F203454C81F75BF4E728DB /* ReverseExtension-Info.plist */,
+				BF7FAD18828CA4862D0ADB10B136942E /* ReverseExtension-prefix.pch */,
+				C9C46EBFF3F1EA53EE261452C496F03D /* ReverseExtension-umbrella.h */,
+				A53FF3508EFD5911DD6983E172CC50D9 /* ReverseExtension.debug.xcconfig */,
+				E77A6283C4FD53A0481619FF7CCB0D89 /* ReverseExtension.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReverseExtension";
+			sourceTree = "<group>";
+		};
+		9492943E607D8C1F46F8CEDDAEDE6578 /* Pods-ChatBoatSwiftAITests */ = {
+			isa = PBXGroup;
+			children = (
+				E089219EAE17E9F50728FD20D91AE862 /* Pods-ChatBoatSwiftAITests.modulemap */,
+				34AC2A2B42271317251E48D8686E3356 /* Pods-ChatBoatSwiftAITests-acknowledgements.markdown */,
+				86E94F7766338FCB712E3E4E8D9E8F2F /* Pods-ChatBoatSwiftAITests-acknowledgements.plist */,
+				FFBEDEA9C5308EF6E61AA817B4252B91 /* Pods-ChatBoatSwiftAITests-dummy.m */,
+				2724F89B0578EDF23E636F71F3A60321 /* Pods-ChatBoatSwiftAITests-Info.plist */,
+				C6349E888300E3E85E13B7A208656AE9 /* Pods-ChatBoatSwiftAITests-umbrella.h */,
+				C6125F3C8321239BB281B1A3CA0B5710 /* Pods-ChatBoatSwiftAITests.debug.xcconfig */,
+				2A485AAEED8A4510E28138E2EDEB496B /* Pods-ChatBoatSwiftAITests.release.xcconfig */,
+			);
+			name = "Pods-ChatBoatSwiftAITests";
+			path = "Target Support Files/Pods-ChatBoatSwiftAITests";
+			sourceTree = "<group>";
+		};
+		A24FE5D48871454F82E2ACDBC4C0427D /* ReverseExtension */ = {
+			isa = PBXGroup;
+			children = (
+				53E5B0AFA71E8C2A739F5E7F2D701E03 /* DelegateProxyBase.h */,
+				4CED7522C3E691B132D468D5D71E8B67 /* DelegateProxyBase.m */,
+				65D904C5C5CB7CEF1DD280DF9CBC4AE7 /* ReverseExtension.swift */,
+				1FA804B598E7E6D07E4E47372266B946 /* UITableViewDelegateProxy.swift */,
+				6B6A0612B449F6A77B6F318F89984732 /* Support Files */,
+			);
+			name = ReverseExtension;
+			path = ReverseExtension;
+			sourceTree = "<group>";
+		};
+		CE5B3DD468ABAD30C5B31FD4694BFDB0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F47C98D32862AD10D2AD7C848444C65 /* Pods-ChatBoatSwiftAI */,
+				3579743DB28FD9E0D03393EF41F14E7A /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests */,
+				9492943E607D8C1F46F8CEDDAEDE6578 /* Pods-ChatBoatSwiftAITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				31F31F7078290637326B09AC8358FA99 /* Pods */,
+				31A3F559CDDD041C934525B016588C20 /* Products */,
+				CE5B3DD468ABAD30C5B31FD4694BFDB0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13C9A4CEBC229D11EA187DDD13A6058E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C30C55DF2B856FEA2D3499F44FDA9EB /* Pods-ChatBoatSwiftAITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1316B9511826B24E2FF5417D73427B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39418F2FEFCB1484784888247D00E301 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08FF194EB3460F4C5B87B9686C076B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289B16C46F12680BEB42D28AF270E51F /* Pods-ChatBoatSwiftAI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E729255241BE2DEC9C3114CDD90D5763 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29459839491A9C722E367C840D31DEF8 /* DelegateProxyBase.h in Headers */,
+				AFCCA1998DBB5FD9531FF910EEE7DE2F /* ReverseExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14C6DCBEBEB24DF7FC2725B66DAFEA57 /* Pods-ChatBoatSwiftAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2DA630DCE2B4F22EB283459CECDEFC /* Build configuration list for PBXNativeTarget "Pods-ChatBoatSwiftAI" */;
+			buildPhases = (
+				E08FF194EB3460F4C5B87B9686C076B1 /* Headers */,
+				5F2445C68933629E148657F7A76A7F60 /* Sources */,
+				4D2C3664588A8755A2C11CC519122CD1 /* Frameworks */,
+				F38E3403D16B12CDA22E35E90ACB1363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EEEF02FEC622F3753D7C6A3F492E0E9 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChatBoatSwiftAI";
+			productName = Pods_ChatBoatSwiftAI;
+			productReference = 39C953EA556E5C7D33B011C465EE02D5 /* Pods-ChatBoatSwiftAI */;
+			productType = "com.apple.product-type.framework";
+		};
+		1D9DC60324F952EF1F7019E52E8F7F14 /* ReverseExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E35BB98C0B4FD519108A0E97C75740E /* Build configuration list for PBXNativeTarget "ReverseExtension" */;
+			buildPhases = (
+				E729255241BE2DEC9C3114CDD90D5763 /* Headers */,
+				2ACE86E719E56F29026DB3517F1D6226 /* Sources */,
+				5D75C067D218F8FDCBEAFE66D516DDFF /* Frameworks */,
+				4D899390179234BF25F3F896CBFEC925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReverseExtension;
+			productName = ReverseExtension;
+			productReference = 65701223E47D1106EED1E4517578C59D /* ReverseExtension */;
+			productType = "com.apple.product-type.framework";
+		};
+		70C216127DD60C31F5F6BCECDF9D6DE3 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9626A0842235BDBF7B68F7299E89D78 /* Build configuration list for PBXNativeTarget "Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests" */;
+			buildPhases = (
+				CD1316B9511826B24E2FF5417D73427B /* Headers */,
+				36902D9A9EA20C71A426AC4DBC18A376 /* Sources */,
+				B129D0717063FE28A91D3FD4DD16B0D4 /* Frameworks */,
+				680C203842890FEC00D26A904C2E4DD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3CE93EECE483DF4CBA48918C6F99B47 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests";
+			productName = Pods_ChatBoatSwiftAI_ChatBoatSwiftAIUITests;
+			productReference = 7F2E5BDAD75533C42AC31B6D955407C7 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC4E75D4452DE341B280E6E3D582756A /* Pods-ChatBoatSwiftAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71E6B1132CE21BE8C9D32BACD283C65 /* Build configuration list for PBXNativeTarget "Pods-ChatBoatSwiftAITests" */;
+			buildPhases = (
+				13C9A4CEBC229D11EA187DDD13A6058E /* Headers */,
+				96864BD45AAA305AC20FB24590375E06 /* Sources */,
+				CA3EEAE649C24FE970258DAD7540EEB4 /* Frameworks */,
+				82691D9513972F90EEA0834F8FE2447C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF60F374B3D885E4BCD139FBB786A1BE /* PBXTargetDependency */,
+			);
+			name = "Pods-ChatBoatSwiftAITests";
+			productName = Pods_ChatBoatSwiftAITests;
+			productReference = C1509A5CA399C597FAF8B621CD9F3BC7 /* Pods-ChatBoatSwiftAITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 31A3F559CDDD041C934525B016588C20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14C6DCBEBEB24DF7FC2725B66DAFEA57 /* Pods-ChatBoatSwiftAI */,
+				70C216127DD60C31F5F6BCECDF9D6DE3 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests */,
+				EC4E75D4452DE341B280E6E3D582756A /* Pods-ChatBoatSwiftAITests */,
+				1D9DC60324F952EF1F7019E52E8F7F14 /* ReverseExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D899390179234BF25F3F896CBFEC925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680C203842890FEC00D26A904C2E4DD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82691D9513972F90EEA0834F8FE2447C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38E3403D16B12CDA22E35E90ACB1363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ACE86E719E56F29026DB3517F1D6226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C182C2DE539DAF764116EC5D43D2E3F1 /* DelegateProxyBase.m in Sources */,
+				D89C518DD8554DED81914683ED098D91 /* ReverseExtension.swift in Sources */,
+				3B3134994A2063F1F6AC793B09111E29 /* ReverseExtension-dummy.m in Sources */,
+				1A208A68AD00A8FBEB560C9839E697D8 /* UITableViewDelegateProxy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36902D9A9EA20C71A426AC4DBC18A376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50C1244E84FDF1ECC7857D3B4788C43 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2445C68933629E148657F7A76A7F60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEACA794C0F33D24E93B00F42AFCB1A6 /* Pods-ChatBoatSwiftAI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96864BD45AAA305AC20FB24590375E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB59AE9B8D4DE2898B9EC2F5F3B898CE /* Pods-ChatBoatSwiftAITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EEEF02FEC622F3753D7C6A3F492E0E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReverseExtension;
+			target = 1D9DC60324F952EF1F7019E52E8F7F14 /* ReverseExtension */;
+			targetProxy = 09C39C9659105A3D66E7C7AC517525B5 /* PBXContainerItemProxy */;
+		};
+		A3CE93EECE483DF4CBA48918C6F99B47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReverseExtension;
+			target = 1D9DC60324F952EF1F7019E52E8F7F14 /* ReverseExtension */;
+			targetProxy = 476567476D5F24A21ABB04DEE6EABAEB /* PBXContainerItemProxy */;
+		};
+		FF60F374B3D885E4BCD139FBB786A1BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ChatBoatSwiftAI";
+			target = 14C6DCBEBEB24DF7FC2725B66DAFEA57 /* Pods-ChatBoatSwiftAI */;
+			targetProxy = B73A371A17860EE395969696B4E89138 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		488A687496A6A0B484405240C25956D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E77A6283C4FD53A0481619FF7CCB0D89 /* ReverseExtension.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReverseExtension/ReverseExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReverseExtension/ReverseExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReverseExtension/ReverseExtension.modulemap";
+				PRODUCT_MODULE_NAME = ReverseExtension;
+				PRODUCT_NAME = ReverseExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C2B1B87C1B92AE37C81AFD88764081D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A485AAEED8A4510E28138E2EDEB496B /* Pods-ChatBoatSwiftAITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatBoatSwiftAITests/Pods-ChatBoatSwiftAITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatBoatSwiftAITests/Pods-ChatBoatSwiftAITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A041C44D102A69A4C982EECED42948F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F5EE00A2B412ABD701D6EB39B8AC44 /* Pods-ChatBoatSwiftAI.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatBoatSwiftAI/Pods-ChatBoatSwiftAI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatBoatSwiftAI/Pods-ChatBoatSwiftAI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA79B17F3851E02F904A72928FBE0618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1FFA37276CE3A411CA1C1F706F12A9E /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests/Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests/Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7860969C01A5CCA642D26A0C81CEFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53FF3508EFD5911DD6983E172CC50D9 /* ReverseExtension.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReverseExtension/ReverseExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReverseExtension/ReverseExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReverseExtension/ReverseExtension.modulemap";
+				PRODUCT_MODULE_NAME = ReverseExtension;
+				PRODUCT_NAME = ReverseExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E1FB793E6875D8EC1D8633BAAF2B6396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6125F3C8321239BB281B1A3CA0B5710 /* Pods-ChatBoatSwiftAITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatBoatSwiftAITests/Pods-ChatBoatSwiftAITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatBoatSwiftAITests/Pods-ChatBoatSwiftAITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3F44D29C7DD33D3351333F60D0AF797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 614593D404FEDC43CAF2402998DB958B /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests/Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests/Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F55C628B2BE66D79F69FA88BC32056BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6831BEB4A69D14247C8239EFDA5206E0 /* Pods-ChatBoatSwiftAI.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatBoatSwiftAI/Pods-ChatBoatSwiftAI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatBoatSwiftAI/Pods-ChatBoatSwiftAI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A2DA630DCE2B4F22EB283459CECDEFC /* Build configuration list for PBXNativeTarget "Pods-ChatBoatSwiftAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55C628B2BE66D79F69FA88BC32056BD /* Debug */,
+				A041C44D102A69A4C982EECED42948F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E35BB98C0B4FD519108A0E97C75740E /* Build configuration list for PBXNativeTarget "ReverseExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7860969C01A5CCA642D26A0C81CEFDD /* Debug */,
+				488A687496A6A0B484405240C25956D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C71E6B1132CE21BE8C9D32BACD283C65 /* Build configuration list for PBXNativeTarget "Pods-ChatBoatSwiftAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FB793E6875D8EC1D8633BAAF2B6396 /* Debug */,
+				5C2B1B87C1B92AE37C81AFD88764081D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9626A0842235BDBF7B68F7299E89D78 /* Build configuration list for PBXNativeTarget "Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3F44D29C7DD33D3351333F60D0AF797 /* Debug */,
+				AA79B17F3851E02F904A72928FBE0618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
