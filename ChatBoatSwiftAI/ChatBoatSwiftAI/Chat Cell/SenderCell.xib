@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SenderCell" rowHeight="809" id="KGk-i7-Jjw" customClass="SenderCell" customModule="ChatBoatSwiftAI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="485" height="809"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="485" height="809"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r2D-f3-yCk">
+                        <rect key="frame" x="0.0" y="0.0" width="485" height="809"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fct-p0-w3B" customClass="BubbleView" customModule="ChatBoatSwiftAI" customModuleProvider="target">
+                                <rect key="frame" x="60" y="12" width="384" height="785"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HEy, Hii John How are you ?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exc-Qp-3sf">
+                                        <rect key="frame" x="15" y="10" width="354" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="exc-Qp-3sf" secondAttribute="bottom" constant="10" id="CD1-9e-AQO"/>
+                                    <constraint firstItem="exc-Qp-3sf" firstAttribute="leading" secondItem="Fct-p0-w3B" secondAttribute="leading" constant="15" id="H4B-4i-BlU"/>
+                                    <constraint firstItem="exc-Qp-3sf" firstAttribute="top" secondItem="Fct-p0-w3B" secondAttribute="top" constant="10" id="IeZ-4v-bOb"/>
+                                    <constraint firstAttribute="trailing" secondItem="exc-Qp-3sf" secondAttribute="trailing" constant="15" id="Vht-Mq-YzC"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="arrowDirectionIB" value="right"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="aSR-Cl-cWK">
+                                <rect key="frame" x="444" y="768" width="36" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="36" id="Hng-tD-8Ha"/>
+                                    <constraint firstAttribute="height" constant="36" id="cdR-oP-N5J"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Fct-p0-w3B" firstAttribute="bottom" secondItem="aSR-Cl-cWK" secondAttribute="bottom" constant="-7" id="69I-fa-mSV"/>
+                            <constraint firstAttribute="bottom" secondItem="aSR-Cl-cWK" secondAttribute="bottom" constant="5" id="A1n-cQ-pcv"/>
+                            <constraint firstItem="Fct-p0-w3B" firstAttribute="top" secondItem="r2D-f3-yCk" secondAttribute="top" constant="12" id="BM2-m8-O29"/>
+                            <constraint firstItem="aSR-Cl-cWK" firstAttribute="leading" secondItem="Fct-p0-w3B" secondAttribute="trailing" id="HdV-WJ-huf"/>
+                            <constraint firstAttribute="trailing" secondItem="aSR-Cl-cWK" secondAttribute="trailing" constant="5" id="PiQ-nL-WFp"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="QxI-gq-WaX"/>
+                            <constraint firstItem="Fct-p0-w3B" firstAttribute="leading" secondItem="r2D-f3-yCk" secondAttribute="leading" constant="60" id="ccf-cG-gbA"/>
+                            <constraint firstItem="Fct-p0-w3B" firstAttribute="top" secondItem="r2D-f3-yCk" secondAttribute="top" constant="12" id="zJi-aU-ohp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="r2D-f3-yCk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Ikx-V2-PUm"/>
+                    <constraint firstItem="r2D-f3-yCk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="kJO-Hq-sSS"/>
+                    <constraint firstAttribute="bottom" secondItem="r2D-f3-yCk" secondAttribute="bottom" id="tkP-ID-RvJ"/>
+                    <constraint firstAttribute="trailing" secondItem="r2D-f3-yCk" secondAttribute="trailing" id="z2u-j5-uFT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="messageLbl" destination="exc-Qp-3sf" id="RDV-Qv-0I6"/>
+            </connections>
+            <point key="canvasLocation" x="251.44927536231887" y="364.62053571428572"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="user" width="820" height="661"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

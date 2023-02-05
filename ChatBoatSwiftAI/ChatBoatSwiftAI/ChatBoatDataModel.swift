@@ -15,7 +15,7 @@ struct Model: Encodable {
 }
 
 struct ModelResponse: Decodable {
-    let id: String
+    let id: String?
     let choices: [ModelChoice]
 }
 
@@ -24,10 +24,11 @@ struct ModelChoice: Decodable {
 }
 
 struct MessageModel {
-    let id: String
+    let id: String?
     let content: String
     let dateCreated: Date
     let sender: MessageSender
+    var hideCopyButton = false
 }
 
 enum MessageSender {
