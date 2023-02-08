@@ -9,11 +9,6 @@ import Foundation
 import Alamofire
 import Combine
 
-enum Constants {
-    static let API_KEY = "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"
-}
-
-
 class APIServiceManager {
     let baseUrl = "https://api.openai.com/v1/"
 
