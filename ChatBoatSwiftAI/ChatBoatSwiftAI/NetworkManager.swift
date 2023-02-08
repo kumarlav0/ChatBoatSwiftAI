@@ -10,7 +10,7 @@ import Alamofire
 import Combine
 
 enum Constants {
-    static let API_KEY = "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"
+    static let API_KEY = "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"
 }
 
 

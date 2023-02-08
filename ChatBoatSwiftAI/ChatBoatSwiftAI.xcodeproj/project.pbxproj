@@ -27,6 +27,7 @@
 		0486C2EF298DA89B00527770 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0486C2EE298DA89B00527770 /* Alamofire */; };
 		0486C2F1298DA8C900527770 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486C2F0298DA8C900527770 /* NetworkManager.swift */; };
 		0486C2F3298DA8F600527770 /* ChatBoatDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486C2F2298DA8F600527770 /* ChatBoatDataModel.swift */; };
+		04FF93A8299425C8004D46A3 /* ChatBoatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF93A7299425C8004D46A3 /* ChatBoatViewModel.swift */; };
 		3E5FCBCFF835DD394F442859 /* Pods_ChatBoatSwiftAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E87178F259D4C0C575B3CFB /* Pods_ChatBoatSwiftAI.framework */; };
 		62A86154F55CA668B02550A2 /* Pods_ChatBoatSwiftAI_ChatBoatSwiftAIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEED115299F886AA2B3E067E /* Pods_ChatBoatSwiftAI_ChatBoatSwiftAIUITests.framework */; };
 		DB2908D0311888D1227FEC45 /* Pods_ChatBoatSwiftAITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99419B489EF28AC8A599DF3 /* Pods_ChatBoatSwiftAITests.framework */; };
@@ -74,6 +75,7 @@
 		0486C2F0298DA8C900527770 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		0486C2F2298DA8F600527770 /* ChatBoatDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBoatDataModel.swift; sourceTree = "<group>"; };
 		04DDF95F405856DD97D4DA30 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests/Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		04FF93A7299425C8004D46A3 /* ChatBoatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBoatViewModel.swift; sourceTree = "<group>"; };
 		242AFDF585E758E8B5BC3E52 /* Pods-ChatBoatSwiftAITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBoatSwiftAITests.release.xcconfig"; path = "Target Support Files/Pods-ChatBoatSwiftAITests/Pods-ChatBoatSwiftAITests.release.xcconfig"; sourceTree = "<group>"; };
 		2EC46F3AABC9C6AE9E623981 /* Pods-ChatBoatSwiftAITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBoatSwiftAITests.debug.xcconfig"; path = "Target Support Files/Pods-ChatBoatSwiftAITests/Pods-ChatBoatSwiftAITests.debug.xcconfig"; sourceTree = "<group>"; };
 		53CB4BB1793AEEB7E7F36EB8 /* Pods-ChatBoatSwiftAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBoatSwiftAI.release.xcconfig"; path = "Target Support Files/Pods-ChatBoatSwiftAI/Pods-ChatBoatSwiftAI.release.xcconfig"; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				0486C2C3298DA85C00527770 /* ChatBoatSwiftAI.xcdatamodeld */,
 				0486C2F0298DA8C900527770 /* NetworkManager.swift */,
 				0486C2F2298DA8F600527770 /* ChatBoatDataModel.swift */,
+				04FF93A7299425C8004D46A3 /* ChatBoatViewModel.swift */,
 			);
 			path = ChatBoatSwiftAI;
 			sourceTree = "<group>";
@@ -478,6 +481,7 @@
 				0486C2F1298DA8C900527770 /* NetworkManager.swift in Sources */,
 				0486C2BB298DA85C00527770 /* AppDelegate.swift in Sources */,
 				042B7902298ED581006280E8 /* ReceiverCell.swift in Sources */,
+				04FF93A8299425C8004D46A3 /* ChatBoatViewModel.swift in Sources */,
 				042B78FE298ED56C006280E8 /* SenderCell.swift in Sources */,
 				0486C2BD298DA85C00527770 /* SceneDelegate.swift in Sources */,
 				0486C2F3298DA8F600527770 /* ChatBoatDataModel.swift in Sources */,
