@@ -25,8 +25,8 @@ class ViewController: UIViewController {
 
     @IBAction func SendAction(_ sender: UIButton) {
         chatBoatViewModel.sendMessage(tv.text!)
+        tv.text = nil
     }
-
 }
 
 extension ViewController {
@@ -44,6 +44,29 @@ extension ViewController {
             print("scrollViewDidReachBottom")
         }
         tblView.rowHeight = UITableView.automaticDimension
+        placeHolderForTextView()
+    }
+    
+    func placeHolderForTextView () {
+        tv.text = " Ask me anything"
+        tv.textColor = UIColor.lightGray
+        tv.delegate = self
+    }
+}
+
+extension ViewController: UITextViewDelegate {
+    func textViewDidBeginEditing(_ textView: UITextView) {
+        if textView.textColor == UIColor.lightGray {
+            textView.text = nil
+            textView.textColor = UIColor.black
+        }
+    }
+    
+    func textViewDidEndEditing(_ textView: UITextView) {
+        if textView.text.isEmpty {
+            textView.text = " Ask me anything"
+            textView.textColor = UIColor.lightGray
+        }
     }
 }
 
@@ -72,7 +95,6 @@ extension ViewController: UITableViewDataSource {
             return questionCell
         }
     }
-
 }
 
 extension ViewController: ReceiverCellDelegate {
