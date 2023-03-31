@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tv: UITextView!
 
     var chatBoatViewModel = ChatBoatViewModel()
+    var flag = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +27,6 @@ class ViewController: UIViewController {
     @IBAction func SendAction(_ sender: UIButton) {
         chatBoatViewModel.sendMessage(tv.text!)
     }
-
 }
 
 extension ViewController {
@@ -36,6 +36,7 @@ extension ViewController {
         chatBoatViewModel.delegate = self
         tblView.register(UINib(nibName: "SenderCell", bundle: nil), forCellReuseIdentifier: "SenderCell")
         tblView.register(UINib(nibName: "ReceiverCell", bundle: nil), forCellReuseIdentifier: "ReceiverCell")
+        tblView.register(UINib(nibName: "DotAnimationCell", bundle: nil), forCellReuseIdentifier: "DotAnimationCell")
 
         tblView.re.scrollViewDidReachTop = { scrollView in
             print("scrollViewDidReachTop")
@@ -44,6 +45,33 @@ extension ViewController {
             print("scrollViewDidReachBottom")
         }
         tblView.rowHeight = UITableView.automaticDimension
+        placeHolderForTextView()
+    }
+    
+    func placeHolderForTextView () {
+        tv.text = " Ask me anything"
+        tv.textColor = UIColor.lightGray
+        tv.delegate = self
+    }
+}
+
+extension ViewController: UITextViewDelegate {
+    func textViewDidBeginEditing(_ textView: UITextView) {
+        if textView.textColor == UIColor.lightGray {
+            textView.text = nil
+            textView.textColor = UIColor.black
+        }
+    }
+    
+    func textViewDidEndEditing(_ textView: UITextView) {
+        if textView.text.isEmpty {
+            textView.text = " Ask me anything"
+            textView.textColor = UIColor.lightGray
+        }
+    }
+    
+    func textViewDidChange(_ textView: UITextView) {
+        textView.textColor = UIColor.black
     }
 }
 
@@ -53,29 +81,44 @@ extension ViewController: UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        guard let animationCell = tableView.dequeueReusableCell(withIdentifier: "DotAnimationCell", for: indexPath) as? DotAnimationCell else
+        { return UITableViewCell() }
+        return animationCell
+        
         guard indexPath.row < chatBoatViewModel.chatMessages.count else {
             print("The index is out of range.")
             return UITableViewCell()
         }
 
         let chatObj = chatBoatViewModel.chatMessages[indexPath.row]
-
+    
         if chatObj.sender == .chatAI {
             guard let boatCell = tableView.dequeueReusableCell(withIdentifier: "ReceiverCell", for: indexPath) as? ReceiverCell else
             { return UITableViewCell() }
             boatCell.delegate = self
             boatCell.configure(with: chatObj)
-            return boatCell
+           
+//            if flag == 0 {
+//                return animationCell
+//            } else {
+                return boatCell
+           // }
+            
         } else {
             guard let questionCell = tableView.dequeueReusableCell(withIdentifier: "SenderCell", for: indexPath) as? SenderCell else { return UITableViewCell() }
             questionCell.configure(with: chatObj)
             return questionCell
         }
     }
-
 }
 
 extension ViewController: ReceiverCellDelegate {
+    func receiveMessageFromBoat() {
+//        self.flag += 1
+//        tblView.reloadData()
+    }
+    
     func copyAnswer(text: String) {
         UIPasteboard.general.string = text
     }

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,52 +17,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="U06-OT-ALQ">
-                                <rect key="frame" x="0.0" y="44" width="414" height="702"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="U06-OT-ALQ">
+                                <rect key="frame" x="0.0" y="48" width="414" height="733"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MGs-7D-R7U">
-                                <rect key="frame" x="0.0" y="746" width="414" height="150"/>
+                                <rect key="frame" x="0.0" y="781" width="414" height="115"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Ask me anything..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="T7t-QT-Zey">
-                                        <rect key="frame" x="20" y="20" width="294" height="85"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="  Ask me anything..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="T7t-QT-Zey" customClass="CustomTextField" customModule="ChatBoatSwiftAI" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="20" width="339" height="50"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="85" id="P7q-Xv-5kK"/>
+                                            <constraint firstAttribute="height" constant="50" id="P7q-Xv-5kK"/>
                                         </constraints>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gT4-NO-uNr">
-                                        <rect key="frame" x="314" y="20" width="100" height="85"/>
-                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gT4-NO-uNr" customClass="CustomButton" customModule="ChatBoatSwiftAI" customModuleProvider="target">
+                                        <rect key="frame" x="369" y="27.5" width="35" height="35"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="35" id="7Fi-2N-f0f"/>
+                                            <constraint firstAttribute="height" constant="35" id="R3j-7A-F9g"/>
+                                        </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Ask">
+                                        <state key="normal" image="sendIcon">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
+                                                <real key="value" value="17"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="SendAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DQn-S4-BAl"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.50050778420555675" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="2Qv-jB-euA"/>
                                     <constraint firstItem="T7t-QT-Zey" firstAttribute="leading" secondItem="MGs-7D-R7U" secondAttribute="leading" constant="20" id="8eF-Wq-ooz"/>
-                                    <constraint firstItem="gT4-NO-uNr" firstAttribute="top" secondItem="T7t-QT-Zey" secondAttribute="top" id="ICR-lM-0lK"/>
-                                    <constraint firstItem="gT4-NO-uNr" firstAttribute="leading" secondItem="T7t-QT-Zey" secondAttribute="trailing" id="ZnY-3J-yuA"/>
-                                    <constraint firstItem="gT4-NO-uNr" firstAttribute="bottom" secondItem="T7t-QT-Zey" secondAttribute="bottom" id="kq8-X3-UQb"/>
+                                    <constraint firstItem="gT4-NO-uNr" firstAttribute="leading" secondItem="T7t-QT-Zey" secondAttribute="trailing" constant="10" id="ZnY-3J-yuA"/>
+                                    <constraint firstItem="gT4-NO-uNr" firstAttribute="centerY" secondItem="T7t-QT-Zey" secondAttribute="centerY" id="dpB-nj-uyt"/>
                                     <constraint firstItem="T7t-QT-Zey" firstAttribute="top" secondItem="MGs-7D-R7U" secondAttribute="top" constant="20" id="lwZ-Un-xiw"/>
-                                    <constraint firstAttribute="trailing" secondItem="gT4-NO-uNr" secondAttribute="trailing" id="mez-SG-6nc"/>
+                                    <constraint firstAttribute="trailing" secondItem="gT4-NO-uNr" secondAttribute="trailing" constant="10" id="mez-SG-6nc"/>
                                     <constraint firstAttribute="bottom" secondItem="T7t-QT-Zey" secondAttribute="bottom" constant="45" id="v59-HO-H81"/>
-                                    <constraint firstAttribute="trailing" secondItem="T7t-QT-Zey" secondAttribute="trailing" constant="100" id="yQQ-4S-WbP"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="U06-OT-ALQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7sW-mE-Bii"/>
                             <constraint firstAttribute="bottom" secondItem="MGs-7D-R7U" secondAttribute="bottom" id="9Ji-X7-Jh8"/>
@@ -83,17 +94,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="sendIcon" width="16" height="16"/>
         <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBrownColor">
-            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

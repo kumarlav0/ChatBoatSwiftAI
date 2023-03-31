@@ -28,9 +28,13 @@
 		0486C2F1298DA8C900527770 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486C2F0298DA8C900527770 /* NetworkManager.swift */; };
 		0486C2F3298DA8F600527770 /* ChatBoatDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486C2F2298DA8F600527770 /* ChatBoatDataModel.swift */; };
 		04FF93A8299425C8004D46A3 /* ChatBoatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF93A7299425C8004D46A3 /* ChatBoatViewModel.swift */; };
-		04FF93AA29943942004D46A3 /* PrivateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF93A929943942004D46A3 /* PrivateData.swift */; };
 		3E5FCBCFF835DD394F442859 /* Pods_ChatBoatSwiftAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E87178F259D4C0C575B3CFB /* Pods_ChatBoatSwiftAI.framework */; };
 		62A86154F55CA668B02550A2 /* Pods_ChatBoatSwiftAI_ChatBoatSwiftAIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEED115299F886AA2B3E067E /* Pods_ChatBoatSwiftAI_ChatBoatSwiftAIUITests.framework */; };
+		712F058529D3223800A62492 /* PrivateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F058429D3223800A62492 /* PrivateData.swift */; };
+		712F058829D328FF00A62492 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F058729D328FF00A62492 /* CustomTextView.swift */; };
+		712F058B29D32DAD00A62492 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F058A29D32DAD00A62492 /* CustomButton.swift */; };
+		71AC9F8C29D592B200287721 /* DotAnimationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AC9F8A29D592B200287721 /* DotAnimationCell.swift */; };
+		71AC9F8D29D592B200287721 /* DotAnimationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71AC9F8B29D592B200287721 /* DotAnimationCell.xib */; };
 		DB2908D0311888D1227FEC45 /* Pods_ChatBoatSwiftAITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99419B489EF28AC8A599DF3 /* Pods_ChatBoatSwiftAITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,11 +81,15 @@
 		0486C2F2298DA8F600527770 /* ChatBoatDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBoatDataModel.swift; sourceTree = "<group>"; };
 		04DDF95F405856DD97D4DA30 /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests/Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		04FF93A7299425C8004D46A3 /* ChatBoatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBoatViewModel.swift; sourceTree = "<group>"; };
-		04FF93A929943942004D46A3 /* PrivateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateData.swift; sourceTree = "<group>"; };
 		242AFDF585E758E8B5BC3E52 /* Pods-ChatBoatSwiftAITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBoatSwiftAITests.release.xcconfig"; path = "Target Support Files/Pods-ChatBoatSwiftAITests/Pods-ChatBoatSwiftAITests.release.xcconfig"; sourceTree = "<group>"; };
 		2EC46F3AABC9C6AE9E623981 /* Pods-ChatBoatSwiftAITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBoatSwiftAITests.debug.xcconfig"; path = "Target Support Files/Pods-ChatBoatSwiftAITests/Pods-ChatBoatSwiftAITests.debug.xcconfig"; sourceTree = "<group>"; };
 		53CB4BB1793AEEB7E7F36EB8 /* Pods-ChatBoatSwiftAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBoatSwiftAI.release.xcconfig"; path = "Target Support Files/Pods-ChatBoatSwiftAI/Pods-ChatBoatSwiftAI.release.xcconfig"; sourceTree = "<group>"; };
 		574B34191FDB36B93A7B1FAD /* Pods-ChatBoatSwiftAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBoatSwiftAI.debug.xcconfig"; path = "Target Support Files/Pods-ChatBoatSwiftAI/Pods-ChatBoatSwiftAI.debug.xcconfig"; sourceTree = "<group>"; };
+		712F058429D3223800A62492 /* PrivateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateData.swift; sourceTree = "<group>"; };
+		712F058729D328FF00A62492 /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		712F058A29D32DAD00A62492 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		71AC9F8A29D592B200287721 /* DotAnimationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotAnimationCell.swift; sourceTree = "<group>"; };
+		71AC9F8B29D592B200287721 /* DotAnimationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DotAnimationCell.xib; sourceTree = "<group>"; };
 		84B4D975CB44CA19F5823F9D /* Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.release.xcconfig"; path = "Target Support Files/Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests/Pods-ChatBoatSwiftAI-ChatBoatSwiftAIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8E87178F259D4C0C575B3CFB /* Pods_ChatBoatSwiftAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatBoatSwiftAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEED115299F886AA2B3E067E /* Pods_ChatBoatSwiftAI_ChatBoatSwiftAIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatBoatSwiftAI_ChatBoatSwiftAIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,8 +178,11 @@
 		0486C2B9298DA85C00527770 /* ChatBoatSwiftAI */ = {
 			isa = PBXGroup;
 			children = (
+				712F058929D32D9400A62492 /* CustomButton */,
+				712F058629D328DC00A62492 /* CustomTextView */,
 				043D5C08298FD2E00098B2D7 /* Assets Sounds */,
 				043D5C05298FB33D0098B2D7 /* Bubble */,
+				71AC9F8729D591E100287721 /* DotAnimationCell */,
 				042B78FB298ED1B1006280E8 /* Chat Cell */,
 				0486C2BA298DA85C00527770 /* AppDelegate.swift */,
 				0486C2BC298DA85C00527770 /* SceneDelegate.swift */,
@@ -184,7 +195,7 @@
 				0486C2F0298DA8C900527770 /* NetworkManager.swift */,
 				0486C2F2298DA8F600527770 /* ChatBoatDataModel.swift */,
 				04FF93A7299425C8004D46A3 /* ChatBoatViewModel.swift */,
-				04FF93A929943942004D46A3 /* PrivateData.swift */,
+				712F058429D3223800A62492 /* PrivateData.swift */,
 			);
 			path = ChatBoatSwiftAI;
 			sourceTree = "<group>";
@@ -217,6 +228,31 @@
 				242AFDF585E758E8B5BC3E52 /* Pods-ChatBoatSwiftAITests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		712F058629D328DC00A62492 /* CustomTextView */ = {
+			isa = PBXGroup;
+			children = (
+				712F058729D328FF00A62492 /* CustomTextView.swift */,
+			);
+			path = CustomTextView;
+			sourceTree = "<group>";
+		};
+		712F058929D32D9400A62492 /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				712F058A29D32DAD00A62492 /* CustomButton.swift */,
+			);
+			path = CustomButton;
+			sourceTree = "<group>";
+		};
+		71AC9F8729D591E100287721 /* DotAnimationCell */ = {
+			isa = PBXGroup;
+			children = (
+				71AC9F8A29D592B200287721 /* DotAnimationCell.swift */,
+				71AC9F8B29D592B200287721 /* DotAnimationCell.xib */,
+			);
+			path = DotAnimationCell;
 			sourceTree = "<group>";
 		};
 		AD5C0A35FE5A0EB5445C307A /* Frameworks */ = {
@@ -348,6 +384,7 @@
 				043D5C0C298FD2F90098B2D7 /* receiver.mp3 in Resources */,
 				042B7903298ED581006280E8 /* ReceiverCell.xib in Resources */,
 				0486C2C7298DA85D00527770 /* Assets.xcassets in Resources */,
+				71AC9F8D29D592B200287721 /* DotAnimationCell.xib in Resources */,
 				042B78FF298ED56C006280E8 /* SenderCell.xib in Resources */,
 				043D5C0B298FD2F90098B2D7 /* sender.mp3 in Resources */,
 				0486C2C2298DA85C00527770 /* Main.storyboard in Resources */,
@@ -478,8 +515,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				712F058B29D32DAD00A62492 /* CustomButton.swift in Sources */,
 				043D5C07298FB3500098B2D7 /* BubbleView.swift in Sources */,
-				04FF93AA29943942004D46A3 /* PrivateData.swift in Sources */,
+				712F058529D3223800A62492 /* PrivateData.swift in Sources */,
+				712F058829D328FF00A62492 /* CustomTextView.swift in Sources */,
 				0486C2BF298DA85C00527770 /* ViewController.swift in Sources */,
 				0486C2C5298DA85C00527770 /* ChatBoatSwiftAI.xcdatamodeld in Sources */,
 				0486C2F1298DA8C900527770 /* NetworkManager.swift in Sources */,
@@ -488,6 +527,7 @@
 				04FF93A8299425C8004D46A3 /* ChatBoatViewModel.swift in Sources */,
 				042B78FE298ED56C006280E8 /* SenderCell.swift in Sources */,
 				0486C2BD298DA85C00527770 /* SceneDelegate.swift in Sources */,
+				71AC9F8C29D592B200287721 /* DotAnimationCell.swift in Sources */,
 				0486C2F3298DA8F600527770 /* ChatBoatDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
