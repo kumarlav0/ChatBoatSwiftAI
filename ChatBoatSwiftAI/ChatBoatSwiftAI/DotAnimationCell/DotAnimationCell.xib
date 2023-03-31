@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="83" id="KGk-i7-Jjw" customClass="DotAnimationCell" customModule="ChatBoatSwiftAI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="312" height="83"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="312" height="83"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pari" translatesAutoresizingMaskIntoConstraints="NO" id="vXR-iT-Kos">
+                        <rect key="frame" x="5" y="23.666666666666671" width="36" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="36" id="vJ5-3N-yIt"/>
+                            <constraint firstAttribute="height" constant="36" id="y6f-Ru-5b8"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u45-gK-vVu">
+                        <rect key="frame" x="51" y="21.666666666666671" width="90" height="40"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Jkq-7b-BKd">
+                                <rect key="frame" x="20" y="14.999999999999996" width="50" height="10"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eG2-jB-bhK">
+                                        <rect key="frame" x="0.0" y="0.0" width="10" height="10"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AcT-jE-EIT">
+                                        <rect key="frame" x="20" y="0.0" width="10" height="10"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yga-4U-CTd">
+                                        <rect key="frame" x="40" y="0.0" width="10" height="10"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="GqY-8V-3UO"/>
+                                    <constraint firstAttribute="height" constant="10" id="hiM-pM-k3o"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Jkq-7b-BKd" firstAttribute="centerX" secondItem="u45-gK-vVu" secondAttribute="centerX" id="HDZ-7a-ij5"/>
+                            <constraint firstAttribute="width" constant="90" id="I6D-si-skH"/>
+                            <constraint firstItem="Jkq-7b-BKd" firstAttribute="centerY" secondItem="u45-gK-vVu" secondAttribute="centerY" id="Tn1-Cw-BNK"/>
+                            <constraint firstAttribute="height" constant="40" id="Xjq-im-sCD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="u45-gK-vVu" firstAttribute="centerY" secondItem="vXR-iT-Kos" secondAttribute="centerY" id="9th-oE-6cz"/>
+                    <constraint firstItem="u45-gK-vVu" firstAttribute="leading" secondItem="vXR-iT-Kos" secondAttribute="trailing" constant="10" id="aKr-pV-pW3"/>
+                    <constraint firstItem="vXR-iT-Kos" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="cYk-V7-0w2"/>
+                    <constraint firstItem="vXR-iT-Kos" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="zJ1-ff-1nA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dotBackgroundView" destination="u45-gK-vVu" id="0wK-xo-8ua"/>
+                <outlet property="dotView1" destination="eG2-jB-bhK" id="Ecs-k3-Gco"/>
+                <outlet property="dotView2" destination="AcT-jE-EIT" id="VqY-rO-H7t"/>
+                <outlet property="dotView3" destination="yga-4U-CTd" id="vX9-5e-55a"/>
+                <outlet property="stackView" destination="Jkq-7b-BKd" id="Xk2-pl-0Kp"/>
+            </connections>
+            <point key="canvasLocation" x="13.740458015267174" y="-46.126760563380287"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="pari" width="4949" height="8269"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

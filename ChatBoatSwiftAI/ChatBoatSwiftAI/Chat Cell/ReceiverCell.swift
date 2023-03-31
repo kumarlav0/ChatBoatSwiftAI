@@ -9,6 +9,7 @@ import UIKit
 
 protocol ReceiverCellDelegate: AnyObject {
     func copyAnswer(text: String)
+    func receiveMessageFromBoat()
 }
 
 class ReceiverCell: UITableViewCell {
@@ -16,7 +17,8 @@ class ReceiverCell: UITableViewCell {
     @IBOutlet weak var copyContentBtn: UIButton!
 
     weak var delegate: ReceiverCellDelegate?
-
+    
+    var flag:(()->Void)?
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -34,6 +36,8 @@ class ReceiverCell: UITableViewCell {
         DispatchQueue.main.async {
             self.copyContentBtn.isHidden = message.hideCopyButton
         }
+        delegate?.receiveMessageFromBoat()
+        
     }
 
     @IBAction func copyContent(_ sender: UIButton) {
